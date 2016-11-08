@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">nearby-messages</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="editText_hint_namespace">Namespace</string>
+    <string name="editText_hint_type">Type</string>
+
+    <string name="textView_check_console">Please check Android Studio console</string>
+    <string name="textView_filter_settings">Filter Settings</string>
+
+    <string name="button_subscribe_in_foreground">Subscribe in foreground</string>
+    <string name="button_subscribe_in_background">Subscribe in background</string>
+    <string name="button_unsubscribe">Unsubscribe</string>
+</resources>

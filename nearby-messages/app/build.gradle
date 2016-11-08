@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+// Butter Knife
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        try {
+            buildConfigField("String", "BEACON_ATTACHMENT_NAMESPACE", BEACON_ATTACHMENT_NAMESPACE)
+            manifestPlaceholders = [NEARBY_MESSAGES_API_KEY: project.property("NEARBY_MESSAGES_API_KEY")]
+        } catch (e) {
+            throw new RuntimeException("You should cretae gradle.properties and define enviroment values. Please see README file.")
+        }
+
+        applicationId "com.example.nearby_messages"
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:design:25.0.0'
+
+    compile 'com.google.android.gms:play-services-nearby:9.6.1'
+
+    // Butter Knife
+    compile 'com.jakewharton:butterknife:8.1.0'
+    apt 'com.jakewharton:butterknife-compiler:8.1.0'
+}
