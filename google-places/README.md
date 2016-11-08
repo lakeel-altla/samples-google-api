@@ -20,7 +20,7 @@ How to enable the API is listed [here](https://developers.google.com/awareness/a
 
 ## Set up gradle.properties
 
-This sample app needs to Android API Keys and attachment values of Google Beacons.
+This sample app needs to Android API Key for Google Place.
 You must create ```gradle.properties``` file and set values into it.
 
 ```google-places/gradle.properties
