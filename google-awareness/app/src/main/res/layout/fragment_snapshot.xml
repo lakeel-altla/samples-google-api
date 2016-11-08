@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="Please check Android Monitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/button_detect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Get User Activity"/>
+
+    <Button
+            android:id="@+id/button_beacon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_detect"
+            android:text="Get Beacon"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/button_headphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_beacon"
+            android:text="Get Headphone State"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/button_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_headphone"
+            android:text="Get Location"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/button_places"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_location"
+            android:text="Get Places"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/button_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_places"
+            android:text="Get Weather"
+            android:layout_centerHorizontal="true"/>
+
+</LinearLayout>

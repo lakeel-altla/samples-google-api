@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.google_awareness">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+
+    <application
+            android:allowBackup="false"
+            tools:replace="android:allowBackup"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <!-- You must set these API Keys in gradle.properties -->
+        <meta-data
+                android:name="com.google.android.awareness.API_KEY"
+                android:value="${AWARENESS_API_KEY}"/>
+
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="${GEO_API_KEY}"/>
+
+        <meta-data
+                android:name="com.google.android.nearby.messages.API_KEY"
+                android:value="${NEARBY_MESSAGES_API_KEY}"/>
+
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AwarenessReceiver">
+            <intent-filter>
+                <action android:name="android.intent.category.fence.receive"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
