@@ -24,12 +24,14 @@ You must create ```gradle.properties``` file and set values into it.
 
 ```google-awareness/gradle.properties
 
-# All keys may be the same.
-awarenessApiKey = "awarenessApiKey"
-geoApiKey = "geoApiKey"
-nearbyMessagesApiKey = "nearbyMessagesApiKey"
+# All keys may be the same. 
+# Not need to double quotation.
+AWARENESS_API_KEY = AWARENESS_API_KEY
+GEO_API_KEY = GEO_API_KEY
+NEARBY_MESSAGES_API_KEY = NEARBY_MESSAGES_API_KEY
 
 # These values are attachment values of Google Beacons.
+# Double quotation is needed.
 beaconAttachmentNamespace = "namesapce"
 beaconAttachmentType = "type"
 

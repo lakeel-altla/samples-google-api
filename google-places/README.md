@@ -25,7 +25,7 @@ You must create ```gradle.properties``` file and set values into it.
 
 ```google-places/gradle.properties
 
-# API Key
-GEO_API_KEY = "GEO_API_KEY"
+# API Key. Not need to double quotation.
+GEO_API_KEY = GEO_API_KEY
 
 ```

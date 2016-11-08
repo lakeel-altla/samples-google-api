@@ -33,10 +33,10 @@ You must create ```gradle.properties``` file and set values into it.
 
 ```naerby-messages/gradle.properties
     
-    # Not need to double quotation.
-    NEARBY_MESSAGES_API_KEY = NEARBY_MESSAGES_API_KEY
+# Not need to double quotation.
+NEARBY_MESSAGES_API_KEY = NEARBY_MESSAGES_API_KEY
     
-    # NOTE: Double quotation is needed.
-    BEACON_ATTACHMENT_NAMESPACE = "BEACON_ATTACHMENT_NAMESPACE"
+# Double quotation is needed.
+BEACON_ATTACHMENT_NAMESPACE = "BEACON_ATTACHMENT_NAMESPACE"
     
 ```
