@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">google-places</string>
+
+    <string name="button_place_picker">Place Picker</string>
+    <string name="button_fetch">Fetch</string>
+    <string name="button_add">Add</string>
+    <string name="button_report">Report</string>
+
+    <string name="toast_message_added">Added</string>
+    <string name="toast_message_reported">Reported</string>
+</resources>
