@@ -5,6 +5,12 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
+        try {
+            manifestPlaceholders = [MAPS_API_KEY: project.property("MAPS_API_KEY")]
+        } catch (e) {
+            throw new RuntimeException("You should cretae gradle.properties and define enviroment values. Please see README file.")
+        }
+
         applicationId "com.example.google_maps"
         minSdkVersion 18
         targetSdkVersion 24
