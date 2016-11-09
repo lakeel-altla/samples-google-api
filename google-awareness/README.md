@@ -8,19 +8,19 @@ Combine optimally processed context signals in new ways that were not previously
 # Required
 
 ## Get API Keys
-You need to get Android API Keys from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).
 
+You need to get Android API Keys from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).  
 How to get the API Keys is listed [here](https://developers.google.com/awareness/android-api/get-a-key)
 
 ## Enable API
-You need to enable Google API(Google Awareness API, Google Maps Geocoding API, Nearby Messages API) from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).
 
+You need to enable Google API(Google Awareness API, Google Maps Geocoding API, Nearby Messages API) from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).  
 How to enable the API is listed [here](https://developers.google.com/awareness/android-api/get-a-key#activate_additional_apis).
 
 ## Set up gradle.properties
 
-This sample app needs to Android API Keys and attachment values of Google Beacons.
-You must create ```gradle.properties``` file and set values into it.
+This sample app needs to Android API Keys and attachment values of Google Beacons.  
+You must create ```gradle.properties```  and set values into it.
 
 ```google-awareness/gradle.properties
 

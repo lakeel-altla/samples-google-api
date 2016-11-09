@@ -10,6 +10,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
+        <!-- You must set these API Keys in gradle.properties. Please see README. -->
         <meta-data
                 android:name="com.google.android.geo.API_KEY"
                 android:value="${GEO_API_KEY}"/>

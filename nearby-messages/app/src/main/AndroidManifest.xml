@@ -9,6 +9,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
+        <!-- You must set these API Keys in gradle.properties. Please see README. -->
         <meta-data
                 android:name="com.google.android.nearby.messages.API_KEY"
                 android:value="${NEARBY_MESSAGES_API_KEY}" />

@@ -11,25 +11,23 @@ By using the API, you can get the attachment data of the beacon.
 
 ## Get API Key
 
-You need to get Android API Keys from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).
-
+You need to get Android API Keys from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).  
 How to get the API Keys is listed [here](https://developers.google.com/awareness/android-api/get-a-key)
 
 ## Enable API
-You need to enable Nearby Messages API from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).
 
+You need to enable Nearby Messages API from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).  
 How to enable the API is listed [here](https://developers.google.com/awareness/android-api/get-a-key#activate_additional_apis).
 
 ## Register Beacon
 
-You need to register beacon to Google by using [Proximity Beacon API](https://developers.google.com/beacons/proximity/guides).
-
+You need to register beacon to Google by using [Proximity Beacon API](https://developers.google.com/beacons/proximity/guides).  
 Beacon that has been registered you can check on [Google Beacon Dashboard](https://developers.google.com/beacons/dashboard).
 
 ## Set up gradle.properties
-   
+
 This sample app needs to Android API Keys and attachment values of Google Beacons.  
-You must create ```gradle.properties``` file and set values into it.
+You must create ```gradle.properties```  and set values into it.
 
 ```naerby-messages/gradle.properties
     

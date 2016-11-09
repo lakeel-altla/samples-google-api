@@ -8,19 +8,17 @@ By using the Google places API, your app will be able to access with detailed in
 
 ## Get API Key
 
-You need to create a Google project to get your API key.
-After Getting the API key, paste it in ```AndroidManifest.xml```.
-
+You need to create a Google project to get your API key.  
 [How to get API key](https://developers.google.com/places/android-api/signup)
 
 ## Enable API
-You need to enable Google Places API from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).
 
+You need to enable Google Places API from [Google API Console](https://console.developers.google.com/apis?project=profile-notification-95441&hl=JA).  
 How to enable the API is listed [here](https://developers.google.com/awareness/android-api/get-a-key#activate_additional_apis).
 
 ## Set up gradle.properties
 
-This sample app needs to Android API Key for Google Place.
+This sample app needs to Android API Key for Google Place.  
 You must create ```gradle.properties``` file and set values into it.
 
 ```google-places/gradle.properties
