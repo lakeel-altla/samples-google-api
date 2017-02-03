@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">smart-lock-hint</string>
+
+    <string name="toast_error_read_hint">Read hint failed.</string>
+
+    <string name="toast_success">Success.</string>
+
+    <string name="textView_name">Name: </string>
+    <string name="textView_email">Email: </string>
+    <string name="textView_password">Password: </string>
+
+    <string name="title_sign_in">Sign in</string>
+    <string name="title_sign_up">Sign up</string>
+
+    <string name="button_hint">Hint</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_sign_up">Sign up</string>
+</resources>
