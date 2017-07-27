@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_sign_in_with_google">Sign in with Google</string>
+
+    <string name="toast_save_credentials">Credentials saved.</string>
+    <string name="toast_remove_credentials">Credentials removed.</string>
+    <string name="toast_silent_sign_in">Silent signed in.</string>
+
+    <string name="toast_message_credentials_not_found">Credentials not found.</string>
+
+    <string name="toast_error_save_credentials">Save credentials failed.</string>
+    <string name="toast_error_silent_sign_in">Silent signed in failed.</string>
+    <string name="toast_error_read_credentials">Read credentials failed.</string>
+
+    <string name="progress_message_sign_in">Signing in…</string>
+</resources>

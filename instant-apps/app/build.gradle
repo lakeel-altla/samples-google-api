@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.android.sample.instant.apps"
+        minSdkVersion 23
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { java.srcDirs = ['src/main/java', 'src/main/java/'] } }
+}
+
+dependencies {
+    implementation project(':feature1')
+    implementation project(':feature2')
+    implementation project(':base')
+
+    api 'com.android.support:customtabs:26.0.0-beta2'
+    api 'com.android.support:cardview-v7:26.0.0-beta2'
+    api 'com.android.support:design:26.0.0-beta2'
+    api 'com.android.support:cardview-v7:26.0.0-beta2'
+    api 'com.android.support:animated-vector-drawable:26.0.0-beta2'
+    api 'com.android.support:appcompat-v7:26.0.0-beta2'
+
+    api 'com.google.firebase:firebase-auth:10.2.0'
+    // FirebaseUI Auth only
+    api 'com.firebaseui:firebase-ui-auth:1.2.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
