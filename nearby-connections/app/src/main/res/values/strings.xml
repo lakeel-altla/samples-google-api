@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">nearby-connections</string>
+    <string name="button_advertise">Advertise</string>
+    <string name="button_discovery">Discovery</string>
+    <string name="button_send">send</string>
+    <string name="text_status_connected">Status: Connected to devices.</string>
+    <string name="text_status_rejected">Status: Rejected.</string>
+    <string name="text_status_disconnected">Status: Disconnected.</string>
+    <string name="toast_input_text">Please input text.</string>
+</resources>
